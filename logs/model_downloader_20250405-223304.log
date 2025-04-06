@@ -1,0 +1,21 @@
+2025-04-05 22:33:04,609 - model_downloader - INFO - download_models.py:142 - Starting model download
+2025-04-05 22:33:04,610 - model_downloader - INFO - download_models.py:32 - Downloading text model from distilbert-base-uncased-finetuned-sst-2-english
+2025-04-05 22:33:04,610 - model_downloader - INFO - download_models.py:42 - Downloading tokenizer...
+2025-04-05 22:33:05,610 - model_downloader - INFO - download_models.py:44 - Downloading model weights...
+2025-04-05 22:33:07,611 - model_downloader - INFO - download_models.py:92 - Successfully downloaded text model to /tmp/model_cache/text
+2025-04-05 22:33:07,611 - model_downloader - INFO - download_models.py:32 - Downloading image model from efficientnet-b0
+2025-04-05 22:33:07,611 - model_downloader - INFO - download_models.py:55 - Downloading image model weights...
+2025-04-05 22:33:09,612 - model_downloader - INFO - download_models.py:92 - Successfully downloaded image model to /tmp/model_cache/image
+2025-04-05 22:33:09,612 - model_downloader - INFO - download_models.py:32 - Downloading video model from video_model
+2025-04-05 22:33:09,612 - model_downloader - INFO - download_models.py:66 - Downloading frame analysis model...
+2025-04-05 22:33:11,112 - model_downloader - INFO - download_models.py:68 - Downloading temporal model...
+2025-04-05 22:33:12,613 - model_downloader - INFO - download_models.py:92 - Successfully downloaded video model to /tmp/model_cache/video
+2025-04-05 22:33:12,613 - model_downloader - INFO - download_models.py:32 - Downloading multimodal model from 
+2025-04-05 22:33:12,613 - model_downloader - INFO - download_models.py:79 - Downloading multimodal fusion model...
+2025-04-05 22:33:13,614 - model_downloader - INFO - download_models.py:92 - Successfully downloaded multimodal model to /tmp/model_cache/multimodal
+2025-04-05 22:33:13,614 - model_downloader - INFO - download_models.py:146 - Download summary:
+2025-04-05 22:33:13,614 - model_downloader - INFO - download_models.py:149 -   text: SUCCESS
+2025-04-05 22:33:13,614 - model_downloader - INFO - download_models.py:149 -   image: SUCCESS
+2025-04-05 22:33:13,614 - model_downloader - INFO - download_models.py:149 -   video: SUCCESS
+2025-04-05 22:33:13,614 - model_downloader - INFO - download_models.py:149 -   multimodal: SUCCESS
+2025-04-05 22:33:13,614 - model_downloader - INFO - download_models.py:156 - All models downloaded successfully
